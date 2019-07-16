@@ -2,15 +2,9 @@ language: node_js
 node_js:
   - '10'
 dist: trusty
-# sudo: required
-# addons:
-#   firefox: "66.0"
-#   chrome: stable
 cache:
   directories:
     - node_modules
-# services:
-#   - xvfb
 install:
   - npm install
 
@@ -19,6 +13,11 @@ jobs:
     - stage: build
       script: npm run build
     - stage: test
+      # services:
+      #   - xvfb
+      # addons:
+      #   firefox: "66.0"
+      #   chrome: stable
       before_script:
         - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
         - chmod +x ./cc-test-reporter

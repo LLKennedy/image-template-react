@@ -29,6 +29,7 @@
     "react": "^16.8.6"
   },
   "dependencies": {
+    "image-template": "^0.3.0",
     "react": "^16.8.6",
     "webpack": "^4.35.3"
   },
