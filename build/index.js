@@ -94,7 +94,7 @@ module.exports =
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (14:12)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n|     render() {\\n|         return (\\n>             <image-template>\\n|             </image-template>\\n|         )\");\n\n//# sourceURL=webpack:///./src/components/ImageTemplate/ImageTemplate.jsx?");
+eval("throw new Error(\"Module parse failed: Unexpected token (13:12)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n|     render() {\\n|         return (\\n>             <canvas/>\\n|         )\\n|     }\");\n\n//# sourceURL=webpack:///./src/components/ImageTemplate/ImageTemplate.jsx?");
 
 /***/ }),
 
