@@ -1,6 +1,6 @@
 var path = require('path');
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/components/ImageTemplate/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
@@ -10,7 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'src/components/ImageTemplate'),
         exclude: /(node_modules|bower_components|build)/,
         use: {
           loader: 'babel-loader',
