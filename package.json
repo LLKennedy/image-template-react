@@ -1,0 +1,27 @@
+{
+  "name": "image-template-react",
+  "version": "0.1.0",
+  "description": "A react component for building and rendering image templates.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLKennedy/image-template-react.git"
+  },
+  "keywords": [
+    "image",
+    "template",
+    "react",
+    "builder",
+    "ui",
+    "component"
+  ],
+  "author": "Luke Kennedy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LLKennedy/image-template-react/issues"
+  },
+  "homepage": "https://github.com/LLKennedy/image-template-react#readme"
+}
