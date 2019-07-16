@@ -29,8 +29,12 @@
     "react": "^16.8.6"
   },
   "dependencies": {
+    "@types/node": "^12.6.3",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
     "image-template": "^0.3.0",
     "react": "^16.8.6",
+    "typescript": "^3.5.3",
     "webpack": "^4.35.3"
   },
   "devDependencies": {
