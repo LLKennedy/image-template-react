@@ -1,5 +1,5 @@
 import React from 'react';
-import imgtmpl from 'image-template';
+import 'image-template';
 
 export default class ImageTemplate extends React.Component {
     constructor(props) {
@@ -11,8 +11,8 @@ export default class ImageTemplate extends React.Component {
 
     render() {
         return (
-            <imgtmpl>
-            </imgtmpl>
+            <image-template>
+            </image-template>
         )
     }
 }
